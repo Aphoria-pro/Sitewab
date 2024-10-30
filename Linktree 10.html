@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rejoins mon serveur Discord !</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url(https://i.pinimg.com/originals/65/c4/bb/65c4bb1da1b6f751fe07a01084daa26e.gif);
+            background-size: cover; /* Ajout pour couvrir toute la fenêtre */
+        }
+
+        .container {
+            text-align: center;
+            background-color: #581066ec;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            max-width: 500px; /* Agrandit la largeur de la vignette */
+            width: 90%;
+            border: 10px #000000 solid;
+            border-radius: 40px;
+        }
+
+        .profile {
+            margin-bottom: 20px;
+        }
+
+        .profile img {
+            width: 100px; /* Largeur de l'image de profil */
+            height: 100px; /* Hauteur de l'image de profil */
+            border-radius: 50%; /* Arrondit l'image pour la forme de cercle */
+            border: 3px solid #000; /* Bordure autour de l'image */
+        }
+
+        .profile h2 {
+            color: #000; /* Couleur du texte du pseudo */
+            font-size: 24px; /* Taille de la police du pseudo */
+            margin: 10px 0 0; /* Marges pour espacer le pseudo de l'image */
+        }
+
+        h1 {
+            color: #000000;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .social-buttons {
+            display: flex;
+            flex-direction: column; /* Aligne les boutons en colonnes */
+            align-items: center; /* Centre les boutons horizontalement */
+            gap: 20px; /* Espace entre les boutons */
+            margin-top: 40px;
+        }
+
+        .social-button {
+            display: inline-flex;
+            align-items: center;
+            padding: 15px 30px; /* Augmente le rembourrage */
+            font-size: 30px; /* Augmente la taille de la police */
+            cursor: pointer;
+            border: 5px #000000 solid;
+            border-radius: 15px;
+            color: #000000;
+            background-color: #751781;
+            text-decoration: none;
+            transition: background-color 0.3s ease, transform 0.2s ease; /* Ajout de la transition */
+            width: 100%; /* Les boutons prennent toute la largeur disponible */
+            max-width: 250px; /* Limite la largeur des boutons */
+            justify-content: center; /* Centre le contenu à l'intérieur */
+        }
+
+        .social-button img {
+            width: 40px; /* Augmente la taille des icônes */
+            height: 40px; /* Augmente la taille des icônes */
+            margin-right: 20px; /* Espace entre l'icône et le texte */
+        }
+
+        .social-button:hover {
+            opacity: 0.8;
+            transform: scale(1.05); /* Légère augmentation de la taille du bouton */
+        }
+
+        .social-button:focus {
+            outline: none; /* Supprime le contour par défaut */
+            transform: scale(1.1); /* Augmente la taille du bouton lorsqu'il est focalisé */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Ajoute une ombre lors du focus */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="profile">
+            <img src="Png/PFP.png" alt="Photo de Profil"> <!-- Remplacez par l'URL de votre image de profil -->
+            <h2>Aphoria_</h2>
+        </div>
+
+        <h1>Viens sur mes réseaux !</h1>
+
+        <div class="social-buttons">
+            <a class="social-button twitch" href="https://www.twitch.tv/aphoria_" aria-label="Voir la chaine Twitch">
+                <img src="Png/Twitch.png" alt="Twitch Logo">
+                TWITCH
+            </a>
+            <a class="social-button discord" href="https://discord.gg/7hTnnUKqqv" aria-label="Rejoindre le serveur Discord">
+                <img src="Png/Discord.png" alt="Discord Logo">
+                DISCORD
+            </a>
+            <a class="social-button tiktok" href="https://www.tiktok.com/@aphoria_?lang=fr" aria-label="Voir le profil TikTok">
+                <img src="Png/Tiktok.png" alt="TikTok Logo">
+                TIKTOK
+            </a>
+            <a class="social-button youtube" href="https://www.youtube.com/@Aphoria_" aria-label="Voir la chaîne YouTube">
+                <img src="Png/Youtube.png" alt="YouTube Logo">
+                YOUTUBE
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
